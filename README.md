@@ -75,7 +75,7 @@ I couldn't get the p5 preload to work. I wrote my own version.
 
 #### Basic usage
 
-You can pass the [built-in preload functions](#Built-in preload functions)
+You can pass the [built-in preload functions](#built-in-preload-functions)
 
 ```js
 const p5 = require('node-p5');
