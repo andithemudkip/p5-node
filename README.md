@@ -1,4 +1,4 @@
-# p5-node
+# node-p5
 
 ### What is this?
 
@@ -22,7 +22,7 @@ Is the syntax the same?
 ## Installing
 
 ```shell
-$ npm i --s p5-node
+$ npm i --s node-p5
 ```
 
 ## Getting Started
@@ -30,7 +30,7 @@ $ npm i --s p5-node
 All p5 methods must be preceded by the variable you pass to the sketch function.
 
 ```js
-const p5 = require('p5-node');
+const p5 = require('node-p5');
 
 function sketch(p) {
     p.setup = () => {
@@ -49,7 +49,7 @@ let p5Instance = p5.createSketch(sketch);
 Of course, we can't see this because there is no window, so we should save the canvas as an image.
 
 ```js
-const p5 = require('p5-node');
+const p5 = require('node-p5');
 
 function sketch(p) {
     p.setup = () => {
@@ -78,7 +78,7 @@ I couldn't get the p5 preload to work. I wrote my own version.
 You can pass the [built-in preload functions](#Built-in preload functions)
 
 ```js
-const p5 = require('p5-node');
+const p5 = require('node-p5');
 
 let resourcesToPreload = {
     catImage: p5.loadImage('cat.png')
@@ -142,7 +142,7 @@ p5.loadFont(filename: String)
 example:
 
 ```js
-const p5 = require('p5-node');
+const p5 = require('node-p5');
 
 let sugarpunch;
 sugarpunch = p5.loadFont({ path: 'SugarpunchDEMO.otf', family: 'Sugarpunch' });
@@ -315,7 +315,7 @@ module.exports = {
 ```
 
 ```js
-let p5 = require('p5-node');
+let p5 = require('node-p5');
 p5.registerPlugin(require('./myp5Plugin'));
 
 function sketch(p) {

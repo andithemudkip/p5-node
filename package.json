@@ -1,6 +1,6 @@
 {
-  "name": "p5-node",
-  "version": "1.0.0",
+  "name": "node-p5",
+  "version": "1.0.1",
   "description": "A Node.js port of the p5.js library",
   "main": "index.js",
   "dependencies": {
