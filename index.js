@@ -132,6 +132,9 @@ module.exports = {
     image.pixels[index + 2] = col[2];
     image.pixels[index + 3] = col[3];
   }
+
+  // VECTORS
+  pp.prototype.Vector = pp.Vector;
   
   // IO
   // LOAD JSON
