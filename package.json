@@ -4,11 +4,11 @@
   "description": "A Node.js port of the p5.js library",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "canvas": "^2.5.0",
     "gifencoder": "^2.0.1",
     "is-url": "^1.2.4",
-    "jimp": "^0.6.4",
+    "jimp": "^0.16.1",
     "jsdom": "^15.1.1",
     "png-file-stream": "^1.2.1"
   },
