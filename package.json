@@ -9,7 +9,7 @@
     "gifencoder": "^2.0.1",
     "is-url": "^1.2.4",
     "jimp": "^0.16.1",
-    "jsdom": "^15.1.1",
+    "jsdom": "^16.5.3",
     "png-file-stream": "^1.2.1"
   },
   "scripts": {
