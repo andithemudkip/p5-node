@@ -10,6 +10,7 @@
     "is-url": "^1.2.4",
     "jimp": "^0.16.1",
     "jsdom": "^15.1.1",
+    "omggif": "^1.0.10",
     "png-file-stream": "^1.2.1"
   },
   "scripts": {
